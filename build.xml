@@ -1,7 +1,7 @@
 <project name ="flipkart" default = "package">
 <target name = "compile">
 <mkdir dir = "classes"/>
-<javac srcdir = "src" destdir = "classes"/>
+<javac srcdir = "src1" destdir = "classes"/>
 </target>
 
 <target name = "package" depends = "compile">
